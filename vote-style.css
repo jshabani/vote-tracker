@@ -1,0 +1,11 @@
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  height: 300px;
+}
+body {
+  background-color: #fff200;
+}
