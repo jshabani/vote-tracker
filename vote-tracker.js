@@ -148,6 +148,3 @@ function showChart() {
 }
 window.addEventListener("load", showImages);
 window.addEventListener("load", showChart);
-
-
-zzzzzzzzzzzzz
