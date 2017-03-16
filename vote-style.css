@@ -1,6 +1,6 @@
 section {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
 }
 
 img {
@@ -8,5 +8,5 @@ img {
   border: black;
 }
 body {
-  background-color: #fff200;
+  background-color: #000000;
 }
