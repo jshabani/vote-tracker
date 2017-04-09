@@ -97,9 +97,12 @@ function recordClick(event) {
 
 function myButton() {
   console.log("showing the button");
+    if (score <= 15) {
     var button = document.getElementById("buttonpage");
     button.setAttribute("style", "display:inline");
+  } else{
 
+  }
     //document.body.appendChild(btn);
 
   }

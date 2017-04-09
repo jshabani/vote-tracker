@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="vote-style.css">
-  </head>
-  <body>
-    <h1>Vote Tracker</h1>
-    <section id="images-container"></section>
-    <table id="pictureTable">
-    </table>
-    <button id="buttonpage" style= "display:none" onclick="myButton()">Result Here!</button>
-    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-    <script type="text/javascript" src="canvasjs.min.js"></script>
-    <script type="text/javascript" src="vote-tracker.js"></script>
+<head>
+  <link rel="stylesheet" href="vote-style.css">
+</head>
+<body>
+      <header><h1>Pictoramia Votes</h1></header>
+      <br />
+  <h3>Rules Of Games:</h3>
+  <div class="instructions">
+  <p>To play this game, all you need to know how to do is simply clicking on an image.
+    After you have picked your favorite image from the set of 3 images displayed on the screen 15 times, you will then get a table showing a tally of how many times you have picked a certain picture.
+    This should help you figure which one of these images you like the most. Happy clicking!!!</p>
+  </div>
+  <section id="images-container"></section>
+  <table id="pictureTable">
+  </table>
+  <button id="buttonpage" style= "display:none" onclick="window.location.reload()">Start Over!</button>
+  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+  <script type="text/javascript" src="canvasjs.min.js"></script>
+  <script type="text/javascript" src="vote-tracker.js"></script>
+  <div class="titlelorem"><h2>Lorem Ipsum:</h2></div>
+  <div class="instructions"><p>Try-hard photo booth heirloom street art, coloring book jean shorts organic listicle drinking vinegar flexitarian 3 wolf moon bitters vinyl.
+    Jean shorts tote bag vinyl man braid tilde, normcore snackwave. Flexitarian chillwave franzen woke seitan.
+    Iceland bushwick shabby chic dreamcatcher. Cornhole brunch neutra, microdosing tilde selvage dreamcatcher.
+    Hexagon vinyl fingerstache narwhal bicycle rights, chartreuse mustache bitters roof party af echo park.
+    Godard organic 3 wolf moon thundercats.</p></div>
+  <div id="footer">
+    <footer>© Copyright 2017 Pictoramia Company, LLC. All Rights Reserved</footer>
+  </div>
   </body>
-</html>
+  </html>
